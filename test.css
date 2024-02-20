@@ -1,0 +1,229 @@
+@font-face {
+  font-family: EUROSWH;
+  src: url(./fonts/EUROSWH.TTF);
+}
+@font-face {
+  font-family: pop;
+  src: url(./fonts/Poppins/Poppins-ExtraBold.woff2);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.page1 {
+  background-color: #111111;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.page1 h1 {
+  font-size: 24vh;
+  font-family: pop;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.page1 .top {
+  height: 50vh;
+  width: 100%;
+  background-color: #111111;
+  position: absolute;
+  top: 0%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.page1 .top h1 {
+  position: absolute;
+  top: 34%;
+}
+.page1 .bottom {
+  height: 50vh;
+  width: 100%;
+  background-color: #111111;
+  position: absolute;
+  bottom: 0%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.page1 .bottom h1 {
+  position: absolute;
+  bottom: 29.5%;
+}
+
+.page1 .center{
+  /* position: fixed; */
+  color: rgb(190, 17, 17);
+  height: 200vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.page1 .center img{
+  height: 70vh;
+  margin-top: 20vh;
+}
+
+.page2 {
+  background-color: #111111;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+   overflow: hidden;
+} 
+
+
+
+@media (max-width: 420px) {
+  .page1 {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .page1 h1 {
+    font-size: 3vh;
+  }
+  .wrapper .page1 .top h1 {
+    top: 94.3% !important;
+  }
+  .page1 .bottom h1 {
+    position: absolute;
+    bottom: 92.2% !important;
+  }
+  .page1 .center img {
+    height: 34vh;
+    margin-top: 35vh;
+  }
+
+
+  .page2 {
+    padding: 5vh 0vh;
+    min-height: 20vh;
+  }
+  .page2 .marquee-container-1 {
+    min-height: 1.5vh;
+    width: 100%;
+  }
+  .marquee-container-1 .marquee-text-1 h1 {
+    font-size: 4vh;
+  }
+  .marquee-container-1 .marquee-icon-1 {
+    height: 2vh;
+    width: 2vh;
+    margin: 2vh 3vh;
+  }
+  .page2 .marquee-container-2 {
+    min-height: 1.5vh;
+    width: 100%;
+  }
+  .marquee-container-2 .marquee-text-2 h1 {
+    font-size: 4vh;
+  }
+  .marquee-container-2 .marquee-icon-2 {
+    height: 2vh;
+    width: 2vh;
+    margin: 2vh 3vh;
+  }
+
+  
+.page3 {
+  padding: 5vh 0vh;
+}
+.page3 .about {
+  padding: 1.5vh;
+}
+.page3 .about h1 {
+  font-size: 5vh;
+}
+.page3 .about p {
+  font-size: 2vh;
+}
+.page3 .button {
+  margin: 3vh;
+}
+.button button {
+  padding: 1vh 2vh;
+}
+.button button a {
+  font-size: 1.5vh;
+}
+
+
+.page4 {
+  padding: 6vh 1.5vh;
+}
+.page4 .heading2 h1 {
+  font-size: 5vh;
+}
+.page4 .heading2 h1 span {
+  font-size: 5vh;
+}
+.skills {
+  margin-top: 6vh;
+}
+.skills h3 {
+  font-size: 1.5vh;
+  padding: 1.4vh;
+}
+.page4 img {
+  height: 6vh;
+  padding: 1.5vh;
+  margin-right: 1vh;
+  margin-bottom: 1vh;
+}
+.ph-img {
+  padding: 2vh 0vh 2vh;
+}
+
+
+.page5 {
+  padding: 8vh 1.5vh;
+}
+.page5 h1 {
+  font-size: 5vh;
+}
+.page5 h1 span {
+  color: red;
+}
+.page5 h2 {
+  font-size: 2.5vh;
+  padding-top: 1vh;
+}
+/* swiper css */
+
+.swiper-container {
+  width: 60vh;
+}
+
+
+.page6 {
+  background-color: #151515;
+  overflow: hidden;
+  min-height: 70vh;
+  width: 100%;
+  font-family: pop;
+  padding: 5vh 1.5vh 0vh 1.5vh;
+  color: white;
+}
+.page6 h1 {
+  font-size: 7vh;
+}
+.page6 h1 a {
+  text-decoration: none;
+  color: rgb(0, 238, 255);
+}
+.page6 h4 {
+  text-align: center;
+  /* padding: 3vh; */
+  margin-top: 7vh;
+}
+}
