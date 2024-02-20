@@ -95,7 +95,6 @@
 .marquee-container-1 .marquee-text-1 h1 {
   font-size: 12vh;
   font-weight: 600;
-  letter-spacing: -5px;
   color: rgb(0, 0, 0);
 }
 
@@ -111,7 +110,7 @@
   display: flex;
   white-space: nowrap;
   animation-name: move-1;
-  animation-duration: 8s;
+  animation-duration: 13s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -129,7 +128,6 @@
 .page2 .marquee-container-2 {
   min-height: 20vh;
   width: 100%;
-  /* background-color: aqua; */
   display: flex;
   overflow: hidden;
 }
@@ -137,7 +135,6 @@
 .marquee-container-2 .marquee-text-2 h1 {
   font-size: 12vh;
   font-weight: 600;
-  letter-spacing: -5px;
   color: #11111100;
   -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
@@ -154,7 +151,7 @@
   display: flex;
   white-space: nowrap;
   animation-name: move;
-  animation-duration: 8s;
+  animation-duration: 13s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -254,8 +251,8 @@
   border-radius: 10px;
 }
 .page4 img {
-  height: 12vh;
-  background-color: aliceblue;
+  height: 15vh;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
   padding: 1.5vh;
   margin-right: 2vh;
@@ -423,8 +420,8 @@
   padding: 1.4vh;
 }
 .page4 img {
-  height: 6vh;
-  padding: 1.5vh;
+  height: 9vh;
+  padding: 1vh;
   margin-right: 1vh;
   margin-bottom: 1vh;
 }
@@ -580,7 +577,7 @@
   padding: 1.8vh;
 }
 .page4 img {
-  height: 9vh;
+  height: 11vh;
   padding: 1.5vh;
   margin-right: 1vh;
   margin-bottom: 1vh;
@@ -730,7 +727,7 @@
   padding: 1.8vh;
 }
 .page4 img {
-  height: 10vh;
+  height: 12vh;
   padding: 1.5vh;
   margin-right: 1vh;
   margin-bottom: 1vh;
