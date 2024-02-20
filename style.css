@@ -61,7 +61,6 @@
 }
 
 .page1 .center {
-  /* position: fixed; */
   color: rgb(190, 17, 17);
   height: 200vh;
   width: 100%;
@@ -77,7 +76,6 @@
 }
 
 .page2 {
-  /* margin-top: 15vh; */
   padding-top: 10vh;
   min-height: 87vh;
   font-family: EUROSWH;
@@ -86,10 +84,8 @@
 .page2 .marquee-container-1 {
   min-height: 20vh;
   width: 100%;
-  /* background-color: aqua; */
   display: flex;
   overflow: hidden;
-  /* background-color: #000000; */
 }
 
 .marquee-container-1 .marquee-text-1 h1 {
@@ -359,9 +355,11 @@
   }
   .marquee-container-1 .marquee-text-1 h1 {
     font-size: 5vh;
+    letter-spacing: 0px;
   }
   .marquee-container-2 .marquee-text-2 h1 {
     font-size: 5vh;
+    letter-spacing: 0px;
   }
   .marquee-container-1 .marquee-icon-1{
     height: 2.5vh;
@@ -424,6 +422,8 @@
   padding: 1vh;
   margin-right: 1vh;
   margin-bottom: 1vh;
+  background-color: rgb(255, 255, 255);
+
 }
 .ph-img {
   padding: 2vh 0vh 2vh;
@@ -578,7 +578,7 @@
 }
 .page4 img {
   height: 11vh;
-  padding: 1.5vh;
+  padding: 1vh;
   margin-right: 1vh;
   margin-bottom: 1vh;
 }
